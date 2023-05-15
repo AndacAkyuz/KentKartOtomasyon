@@ -1,0 +1,142 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #4e4a49;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 100px;
+    overflow: hidden;
+  }
+  
+  .logo img {
+    width: 73,91px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+  } 
+  
+  .back-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #4e4a49;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  label {
+    display: inline-block;
+    width: 200px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  input[type="button"], input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  input[type="submit"] {
+    background-color: #008CBA;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #006580;
+  }
+  
+  #tutar10, #tutar20, #tutar50, #tutar100, #tutar200 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    border: none;
+    background-color: #4CAF50;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #tutar20 {
+    background-color: #008CBA;
+  }
+  
+  #tutar50 {
+    background-color: #f44336;
+  }
+  
+  #tutar100 {
+    background-color: #9c27b0;
+  }
+
+  #tutar200 {
+    background-color: #009688;
+  }
+  
+  #tutar10:hover, #tutar20:hover, #tutar50:hover, #tutar100:hover,#tutar200:hover {
+    background-color: #3e8e41;
+  }
+
+  button[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4e4a49;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4e4a49;
+  }

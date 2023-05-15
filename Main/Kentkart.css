@@ -1,0 +1,121 @@
+header {  /* BAŞLIK */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #4e4a49;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.Duyuru-Logo{  
+  float: left; 
+  width: 40px; 
+  height: 40px; 
+  margin-right: 10px; 
+}
+
+.duyuru{   
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 10px; 
+  box-sizing: border-box;
+  grid-gap: 10px; 
+  padding: 0 10px; 
+  margin: 20px;
+}
+.logo img {   
+  width: 73,91px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+h1 {  
+  color: white;
+  margin: 0;
+  font-size: 24px;
+} 
+
+.container { 
+  font-size: 14px;
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr); 
+  grid-gap: 10px; 
+  padding: 0 10px; 
+  margin: 20px;
+  border: 1px solid #333;
+  border-radius: 10px; 
+  box-sizing: border-box; 
+}
+.btn {   
+  border: none;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 10px;
+  padding: 20px 40px 40px 40px; 
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  min-width: 150px;
+  height: 100px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.3);
+}
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.btn:nth-child(1) {
+  background-color: #b75757;
+}
+.btn:nth-child(2) {
+  background-color: #6648b1;
+}
+.btn:nth-child(3) {
+  background-color: #b7a557;
+}
+.btn:nth-child(4) {
+  background-color: #fc9b3b;
+}
+.btn:nth-child(5) {
+  background-color: #50ab39;
+}
+.btn:nth-child(6) {
+  background-color: #3a7afe;
+}
+.btn-logo { 
+  width: 40px; 
+  height: 40px; 
+  margin-right: px; 
+}
+.giris-yap {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  z-index: 9999;
+}
+.giris-yap a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #ffffff;
+  padding: 5px 10px;
+  font-size: 1.1em;
+}
+  
